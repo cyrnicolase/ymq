@@ -17,6 +17,6 @@
             "App\\": "src/",
             "Config\\": "config/"
         },
-        "files": ["bluerhinos/phpmqtt/phpMQTT.php"]
+        "files": ["vendor/bluerhinos/phpmqtt/phpMQTT.php"]
     }
 }

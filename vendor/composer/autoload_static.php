@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInite779510832e376c82bc1724c29cb2f59
 {
     public static $files = array (
-        'e5ffcf2869bf5e7bc92065d608d21b74' => __DIR__ . '/../..' . '/bluerhinos/phpmqtt/phpMQTT.php',
+        'c1c45fa5df23bd7792f4ce37d8ed751e' => __DIR__ . '/..' . '/bluerhinos/phpmqtt/phpMQTT.php',
     );
 
     public static $prefixLengthsPsr4 = array (

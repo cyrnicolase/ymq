@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'e5ffcf2869bf5e7bc92065d608d21b74' => $baseDir . '/bluerhinos/phpmqtt/phpMQTT.php',
+    'c1c45fa5df23bd7792f4ce37d8ed751e' => $vendorDir . '/bluerhinos/phpmqtt/phpMQTT.php',
 );
