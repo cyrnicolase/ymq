@@ -9,8 +9,8 @@ var config = {
     entry: "./js/index.js",
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/dist/',   // 异步加载路由
-        filename: process.env.NODE_ENV = 'production' ? '[name].[hash:8].js' : '[name].js',
+        // publicPath: '/dist/',   // 异步加载路由
+        filename: process.env.NODE_ENV === 'production' ? '[name].[hash:8].js' : '[name].js',
         chunkFilename: process.env.NODE_ENV === 'production' ? '[name].[hash:8].js' : '[name].js'
     },
     module: {

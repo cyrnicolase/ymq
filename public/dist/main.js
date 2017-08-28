@@ -57,8 +57,8 @@ const routes = [{
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
-    // mode: 'history',
-    // base: '/dist/',
+    mode: 'history',
+    base: '/dist/',
     routes
 }));
 

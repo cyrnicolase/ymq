@@ -101,21 +101,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.push()
       }
     }
-  }, [_vm._v("发送")]), _vm._v(" "), _c('textarea', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: (_vm.box),
-      expression: "box"
-    }],
+  }, [_vm._v("发送")]), _vm._v(" "), _c('div', {
     domProps: {
-      "value": (_vm.box)
-    },
-    on: {
-      "input": function($event) {
-        if ($event.target.composing) { return; }
-        _vm.box = $event.target.value
-      }
+      "innerHTML": _vm._s(_vm.box)
     }
   })])
 },staticRenderFns: []}

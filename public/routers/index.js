@@ -10,7 +10,7 @@ const routes = [
 ];
 
 export default new VueRouter({
-    // mode: 'history',
-    // base: '/dist/',
+    mode: 'history',
+    base: '/dist/',
     routes
 });
