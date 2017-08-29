@@ -23,7 +23,7 @@ class Publisher
     {
         $this->mqtt->publish($topic, $message, 0);
     }
-
+    
     public function __destruct()
     {
         if (!$this->mqtt) {
