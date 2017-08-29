@@ -1,16 +1,16 @@
 <template>
     <div>
         <div>
-            <span>请输入你的昵称: </span>
+            <span>Nickname: </span>
             <input type="text" v-model = 'nickname' placeholder = 'Your nickname' />
         </div>
         <div>
-            <span>请输入发送消息: </span>
+            <span>Message: </span>
             <input type="text" v-model = 'message' placeholder = 'Your message' />
-            <button @click="push()">发送</button>
+            <button @click="push()">Send</button>
         </div>
         <div>
-            <button @click="connect()">进入房间</button>
+            <button @click="connect()">Connect</button>
             <hr />
         </div>
         <div v-html='box'></div> <!-- 使用html 直接渲染-->
@@ -27,6 +27,9 @@ export default {
             client: '',
             nickname: '',
         }
+    },
+    mounted: function() {
+        document.title = '聊天';
     },
     methods: {
         push() {

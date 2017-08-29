@@ -6877,6 +6877,9 @@ var mqtt = __webpack_require__(39);
             nickname: ''
         };
     },
+    mounted: function () {
+        document.title = '聊天';
+    },
     methods: {
         push() {
             if (!this.client) {
@@ -11572,7 +11575,7 @@ module.exports = ws
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('div', [_c('span', [_vm._v("请输入你的昵称: ")]), _vm._v(" "), _c('input', {
+  return _c('div', [_c('div', [_c('span', [_vm._v("Nickname: ")]), _vm._v(" "), _c('input', {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -11592,7 +11595,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.nickname = $event.target.value
       }
     }
-  })]), _vm._v(" "), _c('div', [_c('span', [_vm._v("请输入发送消息: ")]), _vm._v(" "), _c('input', {
+  })]), _vm._v(" "), _c('div', [_c('span', [_vm._v("Message: ")]), _vm._v(" "), _c('input', {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -11618,13 +11621,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.push()
       }
     }
-  }, [_vm._v("发送")])]), _vm._v(" "), _c('div', [_c('button', {
+  }, [_vm._v("Send")])]), _vm._v(" "), _c('div', [_c('button', {
     on: {
       "click": function($event) {
         _vm.connect()
       }
     }
-  }, [_vm._v("进入房间")]), _vm._v(" "), _c('hr')]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Connect")]), _vm._v(" "), _c('hr')]), _vm._v(" "), _c('div', {
     domProps: {
       "innerHTML": _vm._s(_vm.box)
     }

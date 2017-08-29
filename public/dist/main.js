@@ -70,7 +70,7 @@ const routes = [{
 var disposed = false
 var Component = __webpack_require__(3)(
   /* script */
-  __webpack_require__(10),
+  null,
   /* template */
   __webpack_require__(11),
   /* styles */
@@ -104,28 +104,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 10 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-    data() {
-        return {
-            yo: 'yoyoyoyo'
-        };
-    }
-});
-
-/***/ }),
+/* 10 */,
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -134,7 +113,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "app"
     }
-  }, [_vm._v("\n    yoyoyo!\n    "), _c('router-view')], 1)
+  }, [_c('router-view')], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
