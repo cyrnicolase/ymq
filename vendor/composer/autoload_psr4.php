@@ -7,9 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'sskaje\\mqtt\\' => array($vendorDir . '/sskaje/mqtt/mqtt'),
+    'Yr\\' => array($baseDir . '/yr'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Noodlehaus\\' => array($vendorDir . '/hassankhan/config/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Config\\' => array($baseDir . '/config'),
-    'App\\' => array($baseDir . '/src'),
 );

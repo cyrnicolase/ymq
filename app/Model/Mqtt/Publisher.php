@@ -1,7 +1,7 @@
 <?php
-namespace App\Mqtt;
+namespace App\Model\Mqtt;
 
-use App\Common\Config;
+use Yr\Common\Config;
 
 class Publisher
 {

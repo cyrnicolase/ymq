@@ -1,5 +1,5 @@
 <?php
-namespace App\Common;
+namespace Yr\Common;
 
 use Noodlehaus\Config;
 
@@ -10,7 +10,7 @@ class Bootstrap
         $this->loadConfig();
         $this->initLogger();
         $this->initCache();
-        $this->initDb();
+        $this->initDB();
     }
 
     protected function loadConfig()
@@ -25,7 +25,7 @@ class Bootstrap
     {
     }
 
-    protected function initDb()
+    protected function initDB()
     {
     }
 }

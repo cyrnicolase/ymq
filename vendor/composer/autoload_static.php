@@ -15,6 +15,10 @@ class ComposerStaticInite779510832e376c82bc1724c29cb2f59
         array (
             'sskaje\\mqtt\\' => 12,
         ),
+        'Y' => 
+        array (
+            'Yr\\' => 3,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -31,16 +35,16 @@ class ComposerStaticInite779510832e376c82bc1724c29cb2f59
         array (
             'Config\\' => 7,
         ),
-        'A' => 
-        array (
-            'App\\' => 4,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'sskaje\\mqtt\\' => 
         array (
             0 => __DIR__ . '/..' . '/sskaje/mqtt/mqtt',
+        ),
+        'Yr\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/yr',
         ),
         'Psr\\Log\\' => 
         array (
@@ -57,10 +61,6 @@ class ComposerStaticInite779510832e376c82bc1724c29cb2f59
         'Config\\' => 
         array (
             0 => __DIR__ . '/../..' . '/config',
-        ),
-        'App\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

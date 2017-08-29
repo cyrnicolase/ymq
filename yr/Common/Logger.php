@@ -1,11 +1,11 @@
 <?php
-namespace App\Common;
+namespace Yr\Common;
 
-use App\Common\Config;
+use Yr\Common\Config;
 
 class Logger
 {
-    use \App\Traits\Singleton;
+    use \Yr\Traits\Singleton;
 
     public function getLogger($name = 'default')
     {

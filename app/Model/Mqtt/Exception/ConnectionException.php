@@ -1,5 +1,5 @@
 <?php
-namespace App\Mqtt\Exception;
+namespace App\Model\Mqtt\Exception;
 
 class ConnectionException extends \Exception
 {

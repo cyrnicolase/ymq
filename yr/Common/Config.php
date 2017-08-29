@@ -1,9 +1,9 @@
 <?php
-namespace App\Common;
+namespace Yr\Common;
 
 class Config
 {
-    use \App\Traits\Singleton;
+    use \Yr\Traits\Singleton;
 
     private function __construct()
     {

@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/",
+            "Yr\\": "yr/",
             "Config\\": "config/"
         },
         "files": ["vendor/bluerhinos/phpmqtt/phpMQTT.php"]
